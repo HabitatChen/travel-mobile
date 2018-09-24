@@ -37,7 +37,7 @@ export default {
   },
   methods : {
     getHomeInfo () {
-      axios.get('/travel-mobile/dist/api/index.json')
+      axios.get('/travelMobile/dist/api/index.json')
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc (res) {

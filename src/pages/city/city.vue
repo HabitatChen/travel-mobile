@@ -41,7 +41,7 @@ export default {
     },
     methods: {
         getCityInfo(){
-            axios.get('/travel-mobile/dist/api/city.json')
+            axios.get('/travelMobile/dist/api/city.json')
                 .then(this.handleGetCityInfoSucc)
         },
         handleGetCityInfoSucc(res) {
